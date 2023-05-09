@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Need to redo tables -->
+<html>
+
+<head>
+    <title>PlaceHolder Title</title>
+</head>
+
+<body>
+    <h1> Title of Page</h1>
+    <p>The following text is bold: <b> Bold Text </b></p>
+    <p>This is paragraph 2</p>
+    
+
+    <h2> General Topic 1</h2>
+    <h3> General SubHeading </h3>
+    <h2> General Topic 2</h2>
+
+<ul>
+    <li>List Item 1</li>
+    <li>List Item 2</li>
+</ul>
+</body>
+
+<h2>More Input</h2>
+<form action="/birds">
+    <input type="checkbox" name="agree_tos" id="agree" checked>
+    <label for="agree">I agree</label>
+
+
+    <input type="radio" name="size" id="XS" value="XS">
+    <label for="XS">XS</label>
+    <input type="radio" name="size" id="M" value="M">
+    <label for="M">M</label>
+    <input type="radio" name="size" id="L" value="L">
+    <label for="L">L</label>
+<p>
+    <label for="meal">Select Meal</label>
+    <select name="meal" id="meal">
+        <option value="Fish">Fish</option>
+        <option value="Steak">Steak</option>
+        <option value="Vegtables">Vegtables</option>
+
+    </select>
+</p>
+
+<div>
+    <label for="cheese">Amount of Cheese</label>
+    <input type="range" id="cheese" min="0" max="100" name="cheese_level" step="10">
+</div>
+<div>
+    <label for="ratingText">Rating:</label>
+    <textarea name="text_input" id="ratingText" cols="30" rows="10"></textarea>
+</div>
+
+    <button>Submit</button>
+</form>
+
+
+<form action="/dummy">
+    <label for="firstName">Enter First Name</label>
+    <input type="text" id="firstName" name="firstName" required minlength="5" maxlength="20">
+    <button>Submit</button>
+</form>
+</html>
